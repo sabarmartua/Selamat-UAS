@@ -77,7 +77,6 @@ function createStarEffect(canvas) {
 }
 
 function showCardPopup(verses, name) {
-    // Hapus card lama jika ada
     const existingCard = document.querySelector(".pop-up-card");
     if (existingCard) {
         existingCard.remove();
@@ -86,7 +85,7 @@ function showCardPopup(verses, name) {
     const card = document.createElement("div");
     card.classList.add("pop-up-card");
     const randomVerse = verses[Math.floor(Math.random() * verses.length)];
-    card.innerHTML = `<h2>Halo, ${name}! Semangat menghadapi UAS :)</h2><p>${randomVerse}</p>`;
+    card.innerHTML = `<h2>Haloo, ${name}! Semangat menghadapi UAS :)</h2><p>${randomVerse}</p>`;
 
     document.body.appendChild(card);
 
