@@ -105,3 +105,10 @@ button:hover {
     text-align: left;
     padding: 5px;
 }
+
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #ff6f8c; 
+    font-style: italic;
+}
