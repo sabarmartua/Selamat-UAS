@@ -86,7 +86,7 @@ function showCardPopup(verses, name) {
     const card = document.createElement("div");
     card.classList.add("pop-up-card");
     const randomVerse = verses[Math.floor(Math.random() * verses.length)];
-    card.innerHTML = `<h2>Halo, ${name}!</h2><p>${randomVerse}</p>`;
+    card.innerHTML = `<h2>Halo, ${name}! Semangat menghadapi UAS :)</h2><p>${randomVerse}</p>`;
 
     document.body.appendChild(card);
 
@@ -97,5 +97,5 @@ function showCardPopup(verses, name) {
 
     setTimeout(() => {
         card.remove();
-    }, 100000000); // Hapus card setelah 5 detik
+    }, 100000000); 
 }
